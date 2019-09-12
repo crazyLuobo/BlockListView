@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'BlockListView_Example' do
+  pod 'BlockListView', :path => '../'
+
+  target 'BlockListView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
