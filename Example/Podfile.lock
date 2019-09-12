@@ -1,0 +1,49 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - BlockListView (0.1.0):
+    - MJRefresh
+    - PPNetworkHelper
+  - MJRefresh (3.2.0)
+  - PPNetworkHelper (0.8.1):
+    - AFNetworking (~> 3.2.0)
+    - YYCache (~> 1.0.4)
+  - YYCache (1.0.4)
+
+DEPENDENCIES:
+  - BlockListView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - MJRefresh
+    - PPNetworkHelper
+    - YYCache
+
+EXTERNAL SOURCES:
+  BlockListView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BlockListView: 1b2465dcb6a8dbe63869a60b56700cfda71c6ac9
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  PPNetworkHelper: e893191a73665e9c496c2887fd5ceece9e930bb8
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+
+PODFILE CHECKSUM: 3b93d497c687497db34fbd28bd8622b003e53825
+
+COCOAPODS: 1.7.5

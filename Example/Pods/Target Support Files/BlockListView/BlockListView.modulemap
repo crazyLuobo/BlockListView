@@ -1,0 +1,6 @@
+framework module BlockListView {
+  umbrella header "BlockListView-umbrella.h"
+
+  export *
+  module * { export * }
+}

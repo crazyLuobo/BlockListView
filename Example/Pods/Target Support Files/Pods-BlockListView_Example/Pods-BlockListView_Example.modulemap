@@ -1,0 +1,6 @@
+framework module Pods_BlockListView_Example {
+  umbrella header "Pods-BlockListView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
