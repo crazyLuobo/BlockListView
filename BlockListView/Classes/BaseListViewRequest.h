@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "PPNetworkHelper.h"
+#import <PPNetworkHelper/PPNetworkHelper.h>
 
 NS_ASSUME_NONNULL_BEGIN
 typedef enum : NSUInteger {

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BlockListView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '使用block将tableView的代理方法和网络封装'
 
 # This description is used to generate tags and improve search results.
